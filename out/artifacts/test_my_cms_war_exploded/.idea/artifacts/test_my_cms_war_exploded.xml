@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="test-my_cms:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/test_my_cms_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="test-my_cms/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="test-my_cms" />
+        </element>
+      </element>
+      <element id="library" level="project" name="jstl-1.2" />
+      <element id="library" level="project" name="Java EE 6-Java EE 6" />
+    </root>
+  </artifact>
+</component>
